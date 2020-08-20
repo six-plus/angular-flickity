@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("Flickity"));
+		module.exports = factory(require("flickity"));
 	else if(typeof define === 'function' && define.amd)
-		define("angular-flickity", ["Flickity"], factory);
+		define("angular-flickity", ["flickity"], factory);
 	else if(typeof exports === 'object')
-		exports["angular-flickity"] = factory(require("Flickity"));
+		exports["angular-flickity"] = factory(require("flickity"));
 	else
-		root["angular-flickity"] = factory(root["Flickity"]);
+		root["angular-flickity"] = factory(root["flickity"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_3__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
